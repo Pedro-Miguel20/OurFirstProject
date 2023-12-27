@@ -21,7 +21,7 @@ Typically, a web page has a landing page, but we decided to begin with the sign-
 
 This system is composed of **four inputs from HTML**. The connection with the database will be made using **PHP**.
 
-Using **HTML**, we can define the building blocks of the signup system. It is worth noting that this can be done using **Bootstrap**, but it is always good to exercise to **practice the basics of HTML**.
+Using **HTML**, we can define the building blocks of the signup system. It is worth noting that this can be done using **Bootstrap**, but it is always good to **practice the basics of HTML**.
 
 To simplify the process, only **HTML** will be used for the landing page instead of **extensive CSS coding**. However, it is still important to consider certain factors to avoid any potential issues during the development process.
 
