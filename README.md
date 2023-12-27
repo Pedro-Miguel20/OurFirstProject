@@ -23,6 +23,8 @@ This system is composed of **four inputs from HTML**. The connection with the da
 
 Using **HTML**, we can define the building blocks of the signup system. It is worth noting that this can be done using **Bootstrap**, but it is always good to exercise to **practice the basics of HTML**.
 
+To simplify the process, only **HTML** will be used for the landing page instead of **extensive CSS coding**. However, it is still important to consider certain factors to avoid any potential issues during the development process.
+
 ### HTML
 
 asasasas
