@@ -29,13 +29,13 @@ To simplify the process, only **HTML** will be used for the landing page instead
 
 ```
 <div class="sign" id="signup">
-<form method="POST" action="">
-<input type="text" id="username" class="user-name" name="username" placeholder="username">
-<input type="email" id="email" class="e-mail" name="email" placeholder="email">
-<input type="password" id="password" class="pass-word" name="password" placeholder="password">
-<input type="password" id="corfirmpassword" class="confirm_password" name="confirm-password" placeholder="confirm password">
-<button id="sign-button">inscrever-se</button>
-</form>
+	<form method="POST" action="exemple.php">
+		<input type="text" id="username" class="user-name" name="username" placeholder="username">
+		<input type="email" id="email" class="e-mail" name="email" placeholder="email">
+		<input type="password" id="password" class="pass-word" name="password" placeholder="password">
+		<input type="password" id="corfirmpassword" class="confirm_password" name="confirm-password" placeholder="confirm password">
+		<button id="sign-button">inscrever-se</button>
+	</form>
 </div>
 ```
 
