@@ -45,8 +45,28 @@ Notice that each ID or CLASS will not be used yet, so you do not have to follow 
 
 ```
 <?php
-    include "./env.php";
-    new DB_Connection();
-?>
+
+// Classe criada para declarar as variáveis privadas ou públicas.
+class DB_Connection{
+    private $host = "******"; // DB_HOST
+    private $user = "******"; // DB_USER
+    private $pswd = "******"; // DB_PASSWORD
+    private $db = "******"; // DB_DATABASE
+
+// Quando criada a classe, criamos também a função a ser executada.
+    public function __construct(){  
+				// Nesta linha criamos a variável $conn, para se referir a instância criada apartir do new, outra coisa a se observar é o $this que se trata de uma pseudo-variável que se refere a um objeto.
+        $conn = new mysqli($this->host, $this->user, $this->pswd, $this->db);
+
+				// Aqui ocorre uma condição, SE $conn for igual a connect_error, ou ocorrer um erro do mesmo, ele mata o código("die()") e apresenta o erro.
+        if($conn->connect_error){
+            die("Erro na conexão!");
+        }
+				// Caso o código passe por todas as etapas sem apresentar erro, ele escreve na tela a mensagem "Conexão Estabelecida!".
+        echo "Conexão Estabelecida!";
+    }
+}
+
+?> 
 ```
 
