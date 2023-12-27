@@ -8,6 +8,8 @@
 
   * [Introduction](#Introduction)
   * [Registering users with HTML and PHP](#sign-up)
+    + [HTML](#HTML)
+    + [PHP](#PHP)
 
 ## Introduction
 
