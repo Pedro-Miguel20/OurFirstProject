@@ -42,5 +42,10 @@ To simplify the process, only **HTML** will be used for the landing page instead
 
 ### PHP
 
-sasasasa
+```
+<?php
+    include "./env.php";
+    new DB_Connection();
+?>
+```
 
