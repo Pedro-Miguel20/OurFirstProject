@@ -39,6 +39,7 @@ To simplify the process, only **HTML** will be used for the landing page instead
 	</form>
 </div>
 ```
+Notice that each ID or CLASS will not be used yet, so you do not have to follow or copy this code. Try to build your example. Furthermore, pay attention to the name attribute definition. Choose a name that matches the input action, as it will make the next part easier to understand. Now, let's start with the PHP file.
 
 ### PHP
 
