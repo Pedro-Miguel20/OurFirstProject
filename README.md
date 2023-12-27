@@ -7,7 +7,7 @@
 ## Table of Contents
 
   * [Introduction](#Introduction)
-  * [registering users with HTML and PHP](#sign-up)
+  * [Registering users with HTML and PHP](#sign-up)
 
 ## Introduction
 
