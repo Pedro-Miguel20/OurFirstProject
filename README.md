@@ -6,7 +6,20 @@
 
 ## Table of Contents
 
-  * [Introdução](#Introdução)
-  * [Do lado direito](#do-lado-direito)
+  * [Introduction](#Introduction)
+  * [registering users with HTML and PHP](#sign-up)
 
-## Introdução 
+## Introduction
+
+adadada
+
+## Registering users with HTML and PHP
+
+### HTML
+
+asasasas
+
+### PHP
+
+asasasas
+
