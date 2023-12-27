@@ -43,6 +43,12 @@ Notice that each ID or CLASS will not be used yet, so you do not have to follow 
 
 ### PHP
 
+***Com os inputs criados podemos fazer nossa primeira requisição no PHP, mas antes de tudo isso temos que fazer a conexão com o Banco de Dados.***
+
+***Primeiro temos que criar um novo arquivo .php, contendo as seguintes informações, DB_HOST, DB_USER, DB_PASSWORD e DB_DATABASE.***
+
+***Segue exemplo:***
+
 ```
 <?php
 
