@@ -9,7 +9,6 @@
   * [Introduction](#Introduction)
   * [Registering users with HTML and PHP](#sign-up)
     + [HTML](#HTML)
-      *[HTML](#HTML_SIGN)
     + [PHP](#PHP)
 
 ## Introduction
