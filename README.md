@@ -9,6 +9,7 @@
   * [Introduction](#Introduction)
   * [Registering users with HTML and PHP](#sign-up)
     + [HTML](#HTML)
+    + *[HTML](#HTML_SIGN)
     + [PHP](#PHP)
 
 ## Introduction
@@ -27,15 +28,13 @@ To simplify the process, only **HTML** will be used for the landing page instead
 
 
 ---
-**HTML SIGNUP**
-
+### HTML
+### HTML SIGNUP
 Typically, a web page has a landing page, but we decided to begin with the sign-up system since it will help determine a database setup.
 
 This system is composed of four inputs from HTML. The connection with the database will be made using PHP.
 
 Using HTML, we can define the building blocks of the signup system. It is worth noting that this can be done using Bootstrap, but it is always good to practice the basics of HTML.
-
-### HTML
 
 ```
 <div class="sign" id="signup">
