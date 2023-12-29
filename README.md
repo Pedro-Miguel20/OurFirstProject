@@ -25,7 +25,14 @@ Using **HTML**, we can define the building blocks of the signup system. It is wo
 
 To simplify the process, only **HTML** will be used for the landing page instead of **extensive CSS coding**. However, it is still important to consider certain factors to avoid any potential issues during the development process.
 
-### HTML SIGNUP
+**HTML SIGNUP**
+Typically, a web page has a landing page, but we decided to begin with the sign-up system since it will help determine a database setup.
+
+This system is composed of four inputs from HTML. The connection with the database will be made using PHP.
+
+Using HTML, we can define the building blocks of the signup system. It is worth noting that this can be done using Bootstrap, but it is always good to practice the basics of HTML.
+
+### HTML
 
 ```
 <div class="sign" id="signup">
@@ -39,7 +46,13 @@ To simplify the process, only **HTML** will be used for the landing page instead
 	</form>
 </div>
 ```
-### HTML LOGIN
+Notice that each ID or CLASS will not be used yet, so you do not have to follow or copy this code. Try to build your example. Furthermore, pay attention to the name attribute definition. Choose a name that matches the input action, as it will make the next part easier to understand. Now, let's advantage and also build the login code.
+
+
+**HTML LOGIN**
+Using the same system that will be made in PHP, we can also start building the login code in HTML. Follow the code, and pay attention to the name attribute.
+
+### HTML
 
 ```
 <div class="login" id="login">
@@ -55,7 +68,7 @@ To simplify the process, only **HTML** will be used for the landing page instead
 	</form>
 </div>
 ```
-Notice that each ID or CLASS will not be used yet, so you do not have to follow or copy this code. Try to build your example. Furthermore, pay attention to the name attribute definition. Choose a name that matches the input action, as it will make the next part easier to understand. Now, let's start with the PHP file.
+Finally, let's dive into PHP, starting with the connection.
 
 ### PHP
 
