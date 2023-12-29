@@ -25,7 +25,7 @@ Using **HTML**, we can define the building blocks of the signup system. It is wo
 
 To simplify the process, only **HTML** will be used for the landing page instead of **extensive CSS coding**. However, it is still important to consider certain factors to avoid any potential issues during the development process.
 
-### HTML
+### HTML SIGNUP
 
 ```
 <div class="sign" id="signup">
@@ -40,6 +40,25 @@ To simplify the process, only **HTML** will be used for the landing page instead
 </div>
 ```
 Notice that each ID or CLASS will not be used yet, so you do not have to follow or copy this code. Try to build your example. Furthermore, pay attention to the name attribute definition. Choose a name that matches the input action, as it will make the next part easier to understand. Now, let's start with the PHP file.
+
+### HTML LOGIN
+
+Using the same system that will be made in PHP, we can also start building the login code in HTML. Follow the code, and pay attention to the name attribute.
+
+```
+<div class="login" id="login">
+	<form method="POST" action="example.php">
+
+		<input type="email" id="email" class="e-mail" name="email2" placeholder="email">
+		<!-- For those who didn't notice I changed the name attribute name-->
+
+		<input type="password" id="password" class="pass-word" name="password2" placeholder="password"><!--here as well-->
+
+		<button id="log-button">logar</button><!--You actually do have to change or specify if a button id is related to the log in or sign-up, you can choose a same id for both-->
+
+	</form>
+</div>
+```
 
 ### PHP
 
