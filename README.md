@@ -26,7 +26,6 @@ Using **HTML**, we can define the building blocks of the signup system. It is wo
 To simplify the process, only **HTML** will be used for the landing page instead of **extensive CSS coding**. However, it is still important to consider certain factors to avoid any potential issues during the development process.
 
 
----
 Typically, a web page has a landing page, but we decided to begin with the sign-up system since it will help determine a database setup.
 
 This system is composed of four inputs from HTML. The connection with the database will be made using PHP.
@@ -75,6 +74,7 @@ Using the same system that will be made in PHP, we can also start building the l
 ```
 Finally, let's dive into PHP, starting with the connection.
 
+---
 ### PHP
 
 ***Com os inputs criados podemos fazer nossa primeira requisição no PHP, mas antes de tudo isso temos que fazer a conexão com o Banco de Dados.***
